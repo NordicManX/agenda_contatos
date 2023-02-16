@@ -1,4 +1,13 @@
+*{
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
 h1 {
+    margin: 10px;
     text-align: center;
     font-family: 'Special Elite', cursive;
   }
@@ -9,6 +18,17 @@ h1 {
     align-items: center;
     margin-bottom: 20px;
     font-family: 'Indie Flower', cursive;
+   
+  }
+
+  .botao {
+    padding: 5px;
+   cursor: pointer;
+  background-color: #3763c2;
+  border: none; 
+  padding-top: auto;
+  margin: 10px;
+  font-style: italic;
   }
   
   label {
@@ -36,3 +56,4 @@ h1 {
     font-family: 'Indie Flower', cursive;
   }
   
+
